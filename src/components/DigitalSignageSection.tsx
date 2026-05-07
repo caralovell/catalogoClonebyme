@@ -227,77 +227,7 @@ const DigitalSignageSection = () => (
         </div>
       </ScrollReveal>
 
-      {/* Sub-section: E-Paper (compact) */}
-      <ScrollReveal>
-        <div className="max-w-4xl mx-auto grid md:grid-cols-[1fr_auto] gap-6 items-center mb-8">
-          <div>
-            <h3 className="text-lg md:text-xl font-bold text-foreground mb-2">E-Paper</h3>
-            <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-              Pantallas de tinta electrónica: una solución eficiente y versátil para mostrar información, señalización y
-              comunicación visual, con bajo consumo energético y alta visibilidad.
-            </p>
-          </div>
-          <div className="flex gap-4 items-center">
-            <motion.div
-              whileHover={{ y: -4 }}
-              transition={{ type: "spring", stiffness: 200, damping: 18 }}
-              className="w-full max-w-[260px]"
-            >
-              <img
-                src={epaperDisplay}
-                alt="Pantalla de papel electrónico E-Paper"
-                className="w-full h-auto object-contain"
-                loading="lazy"
-                width={1024}
-                height={768}
-              />
-            </motion.div>
-          </div>
-        </div>
-      </ScrollReveal>
-
-      {/* Sub-section: Gestión de Contenido (compact) */}
-      <ScrollReveal>
-        <div className="max-w-4xl mx-auto grid md:grid-cols-[1fr_auto] gap-6 items-center">
-          <div>
-            <h3 className="text-lg md:text-xl font-bold text-foreground mb-2">Gestión de Contenido</h3>
-            <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-              Gestionar y mostrar contenidos digitales en pantallas ubicadas en espacios físicos como tiendas, oficinas,
-              aeropuertos o centros comerciales
-            </p>
-          </div>
-          <div className="flex gap-4 items-center">
-            <motion.div
-              whileHover={{ y: -4 }}
-              transition={{ type: "spring", stiffness: 200, damping: 18 }}
-              className="w-full max-w-[220px]"
-            >
-              <img
-                src={cmsDashboard}
-                alt="Panel de gestión de contenido"
-                className="w-full h-auto object-contain"
-                loading="lazy"
-                width={1024}
-                height={768}
-              />
-            </motion.div>
-            <motion.div
-              whileHover={{ y: -4 }}
-              transition={{ type: "spring", stiffness: 200, damping: 18 }}
-              className="w-full max-w-[140px]"
-            >
-              <img
-                src={player}
-                alt="Android media player"
-                className="w-full h-auto object-contain"
-                loading="lazy"
-                width={1024}
-                height={768}
-              />
-            </motion.div>
-          </div>
-        </div>
-      </ScrollReveal>
+      
     </div>
   </section>
 );
