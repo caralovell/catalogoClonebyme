@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import LogopostLogo from "./LogopostLogo";
 import situm from "@/assets/image.png";
-import hposh from "@/assets/hposhh.png";
+import hposh from "@/assets/ofi.png";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 16 },
